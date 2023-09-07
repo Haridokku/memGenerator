@@ -63,7 +63,7 @@ export const DisplayContainer = styled.div`
 `
 export const TextElement = styled.h1`
   color: #ffffff;
-  font-size: ${props => props.activeFontSizeId};
+  font-size: ${props => props.activeFontSizeId}px;
   font-family: 'Roboto';
   font-weight: bold;
   align-self: ${props => (props.outline ? 'flex-start' : 'flex-end')};
