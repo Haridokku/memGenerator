@@ -61,7 +61,7 @@ export const DisplayContainer = styled.div`
   background-image: url(${props => props.backgroundImage})
   background-size:cover;
 `
-export const TextElement = styled.h1`
+export const TextElement = styled.p`
   color: #ffffff;
   font-size: ${props => props.activeFontSizeId}px;
   font-family: 'Roboto';
